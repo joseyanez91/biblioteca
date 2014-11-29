@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ padding:20px; background: url("../img/bg.png");}
+section > div { margin-top:50px;}
+.loginBox{
+	width:500px;
+	height:350px;
+	background:#ededed;
+	margin:0 auto;
+	padding:20px;
+	-webkit-box-shadow: 2px 1px 2px 0px rgba(50, 50, 50, 0.83);
+	-moz-box-shadow:    2px 1px 2px 0px rgba(50, 50, 50, 0.83);
+	box-shadow:         2px 1px 2px 0px rgba(50, 50, 50, 0.83);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+
+.loginBox form input[type="password"] {
+    border-radius:0;
+	border-radius:0;
+	margin-bottom:0;
+}	
+.loginBox form input[type="text"] {
+    border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	margin-bottom:0;
+}
+.loginBox form input[type="submit"] {
+    border-top-left-radius:0;
+	border-top-right-radius:0;
+	margin-top:0;
+}
+.formLogin{
+	margin-top:25px;
+	}
+
+.option{ margin-top:20px;}
+
+footer > div { margin-top:10px; }
+
+footer div > p a:hover, footer div > p a:focus{ color:#777777; text-decoration:none}
+footer  p { padding:0; margin:0;}
